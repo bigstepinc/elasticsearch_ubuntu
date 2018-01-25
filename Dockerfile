@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-platinum:6.1.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.1.2
 
 ENV CLUSTER_NAME="mycluster"
 ENV DISCOVERY_ZEN_PING_UNICAST_HOSTS="172.17.0.2"
